@@ -37,15 +37,41 @@ header .menu li a {
 header .menu li a:hover {
   color: yellow;
 }
+header {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: wrap;  
+}
 
 .product-cards {
   display: flex;
   justify-content: space-between;
   flex-flow: wrap;
 }
+
 .product-cards .card {
   width: 30%;
 }
 .product-cards .card h2 {
   color: purple;
+}
+}
+
+.socialmedia {
+  margin: 0;
+  list-style: none;
+}
+.socialmedia li {
+  display: inline;
+  margin-right: 2em;
+}
+
+.fa-instagram {
+  color: pink
+}
+.fa-youtube {
+  color: red
+}
+.fa-facebook {
+  color: skyblue 
 }
