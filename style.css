@@ -67,6 +67,10 @@ main {
       rgba(0, 0, 0, 0.3)
     ),
     url(https://cdn.glitch.com/528aeebf-8c4e-48c5-a25d-6fa7683c067e%2Fwp2553589.webp?v=1628531834931);
+  
+}
+.hero h1 {
+  color: white;
 }
 
 .product-cards {
