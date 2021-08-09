@@ -49,7 +49,17 @@ header {
   color: #444;
   text-align: center;
   padding: 5% 0;
+background-size: cover 
+  
+background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),
+    url(https://cdn.glitch.com/528aeebf-8c4e-48c5-a25d-6fa7683c067e%2Fwp2553589.webp?v=1628531834931); 
 }
+
+
 
 .product-cards {
   display: flex;
@@ -60,10 +70,10 @@ header {
   width: 30%;
 }
 .product-cards .card h2 {
-  color: purple;
+  color: black;
 }
 .product-cards .card img {
-  display:block;
+  display: block;
   width: 100%;
 }
 .socialmedia {
@@ -104,9 +114,6 @@ footer {
 }
 
 @media only screen and (max-width: 600px) {
-  body {
-    background-color: lightblue;
-  }
   .product-cards .card,
   .product-cards .card img {
     width: 100%;
