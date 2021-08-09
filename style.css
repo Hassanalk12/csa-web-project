@@ -44,6 +44,9 @@ header {
   flex-flow: wrap;
 }
 
+main {
+  padding: 0 5%;
+}
 .hero {
   background-color: #eee;
   color: #fff;
