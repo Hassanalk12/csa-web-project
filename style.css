@@ -15,6 +15,12 @@ a:hover {
 h2 {
   color: black;
 }
+h1 {
+  color: black;
+}
+h3{
+  color: black;
+}
 
 header {
   background-color: #000; /* color black */
