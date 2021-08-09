@@ -62,7 +62,10 @@ header {
 .product-cards .card h2 {
   color: purple;
 }
-
+.product-cards .card img {
+  display:block;
+  width: 100%;
+}
 .socialmedia {
   margin: 0;
   list-style: none;
